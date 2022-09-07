@@ -1,0 +1,289 @@
+
+/* TABLET */
+@media only screen and (min-width:650px ) and (max-width:1024px){
+.button-datphong,
+.top-content-menu{
+    display: none;
+}
+#mobile-more{
+    display: block;
+    line-height: 24px;
+
+}
+#mobile-more a{
+    margin: 0;
+    padding-right: 0;
+}
+#mobile-more i{
+    font-size: 30px;
+}
+.slider-text{
+    display: none;
+}
+.container-datphong{
+    padding: 20px 40px;
+}
+.img-section{
+    padding-right: 80px;padding-left: 80px;
+    flex-wrap: wrap;
+}
+.mo-ta-phong{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 0px rgb(102 102 102 / 80%);
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.mo-ta-phong .tag{
+    left: 0;
+}
+.gioi-thieu h3{
+    text-align: center;
+}
+.content-section p {
+    text-align: center;
+}
+.gioi-thieu,
+.gioi-thieu-video{
+    width: 100%;
+}
+.img-section .mo-ta-dich-vu{
+    width: 100% !important;
+    height: 500px;
+}
+.mo-ta-dich-vu img {
+    object-fit: cover;
+    height: 500px;
+}
+.mo-ta_review{
+    margin: 60px 60px 0 60px;
+}
+/* bài viết */
+.post{
+    flex:50%;
+    padding: 20px;
+}
+/* bài viết chi tiết */
+.container-baiviet_hinhanh img{
+    width: 100%;
+    height: 100%;
+}
+/* địa điểm */
+.diadiem{
+    padding: 0;
+}
+#Diadiem .mo-ta_diadiem,
+#Diadiem .mo-ta_diadiem-2{
+    padding: 0;
+    top:-15%;
+}
+
+}
+
+
+
+
+/* MOBILE */
+@media only screen and (max-width:46.1875em){
+    .top-content-info{
+        display: none;
+    }
+
+    .nav .nav-item{
+        width: 30%;
+    }
+    .nav .item3 {
+        width: 40%;
+    }
+    .nav-item1 a{
+        margin: 0;
+    }
+    
+    .slider-text{
+        display: none;
+    }
+
+    .contact-form{
+        overflow: hidden;
+        padding: 30px 15px !important;
+        width: 100%;
+    }
+    .contact-text {
+        display: none;
+    }
+    .contact-form .form-item{
+        display: none;
+    }
+    
+    .contact-row1 .contact-FormInput{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .contact-row1{
+        flex-direction: column;
+    }
+    .contact-button{
+        flex-direction: column;
+    }
+    .contact-button button{
+        margin-bottom: 20px;
+
+    }
+
+    .footer-wrapper{
+        flex-wrap: wrap;
+       
+    }
+    .companyInfo.col-6{
+        order:1;
+        max-width: 100% !important;
+        flex: 0 0 100%;
+    }
+    .ft-sanpham.col{
+        max-width: 100% !important;
+        flex: 0 0 100%;
+        display: flex;
+        border-bottom: 2px solid rgb(220, 220, 220) ;
+        margin-bottom: 16px;
+        
+        align-items: center;
+    }
+    .ft-hotro.col{
+        max-width: 100% !important;
+        flex: 0 0 100%;
+        display: flex;
+        border-bottom: 2px solid rgb(220, 220, 220) ;
+        margin-bottom: 16px;
+        align-items: center;
+
+    }
+    .tieude{
+        flex: 50%;
+    }
+    .noidung{
+        flex:50%;
+    }
+
+    /* ... */
+    .top-content{
+        padding: 0;
+        position: relative;
+    }
+    .button-datphong,
+    .top-content-menu{
+        display: none;
+    }
+    #mobile-more{
+        display: block;
+        line-height: 37px;
+    
+    }
+    #mobile-more a{
+        margin: 0;
+        
+    }
+    #mobile-more i{
+        font-size: 20px;
+    }
+
+    .slider-text{
+        display: none;
+    }
+    .container-datphong{
+        width: 60%;
+        padding: 20px 0;
+        position: relative;
+    }
+    .form-group input, .form-group .btn {
+        width: 80%;
+        line-height: 16px;
+    }
+    #section .content-section {
+        
+        padding-top: 0px;
+    }
+    .img-section{
+        padding-right: 10px;padding-left: 10px;
+        flex-wrap: wrap;
+    }
+    .mo-ta-phong{
+        width: 100%;
+        height: 600px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0px 0px 20px 0px rgb(102 102 102 / 80%);
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .mo-ta-phong .mo-ta{
+        flex: 100%;
+        
+    }
+    .mo-ta-phong .item-img{
+        flex: 100%;
+        height: 40%;
+    }
+    .mo-ta-phong .tag{
+        left: 0;
+        bottom: 65%;
+        width: 50%;
+    }
+    #About{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .gioi-thieu h3{
+        text-align: center;
+    }
+    .content-section p {
+        text-align: center;
+    }
+    .gioi-thieu,
+    .gioi-thieu-video{
+        width: 100%;
+        padding: 0;
+    }
+    .img-section .mo-ta-dich-vu{
+        width: 100% !important;
+        height: 500px;
+    }
+    .mo-ta-dich-vu img {
+        object-fit: cover;
+        height: 500px;
+    }
+    .mo-ta-dich-vu .mo-ta {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .mo-ta-review{
+        margin-top: 30px;
+        height: fit-content;
+        margin-bottom: 10px;
+    }
+    .mo-ta_review{
+        margin:0;
+    }
+
+    /* bài viết */
+    .post{
+        flex: 100%; 
+    }
+    .section-diadiem {
+        margin-top: 50px;
+    }
+    /* bài viết chi tiết */
+    .container-baiviet_hinhanh {
+        margin: 0 30px;
+        bottom: 50px;
+    }
+    .container-baiviet_hinhanh img{
+        width: 100%;
+        height: 100%;
+    }
+
+}
